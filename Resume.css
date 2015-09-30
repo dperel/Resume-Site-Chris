@@ -1,0 +1,62 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+   color: grey;
+    text-decoration: underline;
+}
+
+#profile, #title {
+  width: 70%;
+  margin: auto;
+}
+
+
+td {
+  vertical-align: top;
+}
+
+#divider {
+  width: 100%;
+  background-color: black;
+  height: 25px;
+}
+
+#nav {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color:#FFCCB2;
+  background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Princeton_shield.svg/804px-Princeton_shield.svg.png);
+  background-repeat:no-repeat;
+  background-position:right;
+}
+
+#nav-content {
+  position: absolute;
+  left: 42%;
+  color: white;
+  }
+
+
+#divder-content {
+  color: white;
+  position: absolute;
+  }
+
+#divider-content a:link {
+    color:white;
+    },
+#divider-content a:visited,
+#divider-content a:hover {
+   color: grey;
+  }
+
+li {
+    display: inline;
+}
